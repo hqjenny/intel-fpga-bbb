@@ -39,8 +39,8 @@ set_global_assignment -name VERILOG_FILE ../rtl/qsys_ip/req_C1TxRAM2PORT.v
 
 # Drain Modules
 # =============
-set_global_assignment -name SYSTEMVERILOG_FILE ../rtl/drain_module/fxd_rnd_trunc.sv
-set_global_assignment -name SYSTEMVERILOG_FILE ../rtl/drain_module/relu.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../rtl/drain_modules/fxd_rnd_trunc.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../rtl/drain_modules/relu.sv
 
 # PE Dot Product
 # ==============
@@ -71,4 +71,4 @@ set_global_assignment -name SYSTEMVERILOG_FILE ../rtl/pe/math/dot16_2_8bit.sv
 set_global_assignment -name SYSTEMVERILOG_FILE ../rtl/pe/math/dot16_alm.sv
 set_global_assignment -name SYSTEMVERILOG_FILE ../rtl/pe/math/dot16_dsp.sv
 set_global_assignment -name SYSTEMVERILOG_FILE ../rtl/pe/math/dot4_dsp.sv
-
+set_global_assignment -name SYSTEMVERILOG_FILE ../rtl/pe/nBit_mLength_shiftRegister.sv

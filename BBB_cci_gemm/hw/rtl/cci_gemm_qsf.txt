@@ -1,0 +1,8 @@
+#
+# Import MPF into an RTL project for either simulation or synthesis by including this
+# configuration file in a source list. Source lists are parsed by OPAE's rtl_src_config,
+# which is invoked by both afu_sim_setup and afu_synth_setup.
+#
+cci_gemm.json 
+SI:../sim/sources.txt
+QI:../par/bdw_503_pr_afu_synth.qsf

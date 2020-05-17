@@ -214,6 +214,8 @@ module gemm_csr #(
     localparam AFU_ID_L = 64'hAD92_15C3_A431_73A9;
   `else
     ** Select a valid GEMM mode.
+    localparam AFU_ID_H = 64'h3117_91DC_97E9_4783;
+    localparam AFU_ID_L = 64'h87b7_0D33_B119_0613;
     `endif
     `else   // SIM_MODE
       // Temporary Workaround
